@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>MULTIPLE CHOICE QUESTIONS</title>
+</head>
+<body>
+  <form name="Ques">
+    <h1>What is the capital of DRC (Democratic Republic of Congo)?</h1>
+    <input type="radio" name="mcq1" value="Brazzaville">Brazzaville<br>
+    <input type="radio" name="mcq1" value="Kinshasa">Kinshasa<br>
+    <input type="radio" name="mcq1" value="Durban">Durban<br>
+
+    <h1>What is the capital of SA (South Africa)?</h1>
+    <input type="radio" name="mcq2" value="Rabat">Rabat<br>
+    <input type="radio" name="mcq2" value="Johannesberg">Johannesberg<br>
+    <input type="radio" name="mcq2" value="Pretoria">Pretoria<br>
+
+    <h1>What is the capital of CAR (Central African Republic)?</h1>
+    <input type="radio" name="mcq3" value="Bangui">Bangui<br>
+    <input type="radio" name="mcq3" value="Bandundu">Bandundu<br>
+    <input type="radio" name="mcq3" value="Luanda">Luanda<br>
+
+    <input type="button" value="I'm finished!" onclick="compute()"/>
+  </form>
+  <div id="Answer"></div>
+  <input type="button" value="Reset" onclick="reset()">
+</body>
+</html>
